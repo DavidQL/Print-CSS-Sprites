@@ -1,5 +1,11 @@
-This is a jQuery plugin that turns CSS sprites into printable images. After including the source file, convert a sprite like this:
+A jQuery plugin that turns CSS sprites into printable images. After including the source file, convert a sprite like this:
 
 $('div.my_sprited_div').printSprite();
+
+Some notes:
+
+1. The correct image will be appended and automagically positioned.
+2. If it contains any text (as an <h3> would, for example) that text will become a title attribute in that element.
+3. The selected element will be emptied (if not already empty) and its text-indent property will be reset. You probably don't need to worry about this.
 
 The plugin currently has support for JPG, PNG, and GIF image types. This works on all modern browsers, IE7-8, and (mostly) IE6.
