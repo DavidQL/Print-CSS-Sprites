@@ -1,0 +1,5 @@
+This is a jQuery plugin that turns CSS sprites into printable images. After including the source file, convert a sprite like this:
+
+$('div.my_sprited_div').printSprite();
+
+The plugin currently has support for JPG, PNG, and GIF image types.
